@@ -24,3 +24,18 @@ background: url("../../public/vidoe.mp4");
 width: 100%;
 height: 100%;
 }
+
+.waves {
+  position: relative;
+}
+.waves::after{
+  content: "";
+  background: url("../../public/bg/waves.svg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  opacity: 0.3;
+}
