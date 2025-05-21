@@ -17,6 +17,7 @@ export default function Products() {
                     alt={img.name}
                     className="w-full block rounded-2xl"
                   />
+                  <p className="text-center mt-4 bg-[#065c7d] py-2 text-white w-[80%] m-auto rounded-4xl font-semibold">View</p>
                   <p className="absolute top-[50%] text-center py-2 z-50 text-[20px] fish_name text-white w-full font-semibold">
                     {img.name}
                   </p>
